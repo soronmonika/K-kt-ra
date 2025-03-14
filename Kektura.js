@@ -72,7 +72,7 @@ function LegrovidebbTuraSzakaszKiir(Turaindex){
     console.log("A legrövidebb túraszakasz végpontja:",Kektura[Turaindex].vegPont);
     console.log("A legrövidebb túraszakasz távolsága:",Kektura[Turaindex].tavolsag);
     console.log("A legrövidebb túraszakasz emelkedése:",Kektura[Turaindex].emelkedes);
-    console.log("A legrövidebb túraszakasz lejtés:",Kektura[Turaindex].lestes);
+    console.log("A legrövidebb túraszakasz lejtés:",Kektura[Turaindex].lejtes);
     console.log("A legrövidebb túraszakasz pecsételőhely:",Kektura[Turaindex].pecsetelohelyE);
 }
 LegrovidebbTuraSzakaszKiir(LegrovidebbTuraSzakasz(Kektura));
